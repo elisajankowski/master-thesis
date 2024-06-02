@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-workspace"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+openpyxl = "^3.1.2"
+ipykernel = "^6.29.4"
+scikit-learn = "^1.4.2"
+pingouin = "^0.5.4"
+pyprocessmacro = "^1.0.12"
+factor-analyzer = "^0.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

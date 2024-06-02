@@ -1,0 +1,1 @@
+This repository contains the data and analysis code for my Master's thesis. After acceptance by the university the thesis itself will be published here as well.
